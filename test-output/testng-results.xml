@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-24T20:59:50 PKT" name="Default suite" finished-at="2024-02-24T20:59:50 PKT" duration-ms="316">
+  <suite started-at="2024-02-24T21:29:29 PKT" name="Suite" finished-at="2024-02-24T21:29:34 PKT" duration-ms="5027">
     <groups>
     </groups>
-    <test started-at="2024-02-24T20:59:50 PKT" name="Default test" finished-at="2024-02-24T20:59:50 PKT" duration-ms="316">
+    <test started-at="2024-02-24T21:29:29 PKT" name="Test" finished-at="2024-02-24T21:29:34 PKT" duration-ms="5027">
+      <class name="com.qa.task3LoginTest.Task3_LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.task3LoginTest.Task3_LoginTest@38425407]" started-at="2024-02-24T21:29:30 PKT" name="setUp" finished-at="2024-02-24T21:29:33 PKT" duration-ms="3885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.task3LoginTest.Task3_LoginTest@38425407]" started-at="2024-02-24T21:29:33 PKT" name="loginPageTitleTest" finished-at="2024-02-24T21:29:33 PKT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginTest()[pri:2, instance:com.qa.task3LoginTest.Task3_LoginTest@38425407]" started-at="2024-02-24T21:29:33 PKT" name="loginTest" finished-at="2024-02-24T21:29:34 PKT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logoutTest()[pri:3, instance:com.qa.task3LoginTest.Task3_LoginTest@38425407]" started-at="2024-02-24T21:29:34 PKT" name="logoutTest" finished-at="2024-02-24T21:29:34 PKT" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method signature="loginTestFalse()[pri:4, instance:com.qa.task3LoginTest.Task3_LoginTest@38425407]" started-at="2024-02-24T21:29:34 PKT" name="loginTestFalse" finished-at="2024-02-24T21:29:34 PKT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestFalse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.task3LoginTest.Task3_LoginTest@38425407]" started-at="2024-02-24T21:29:34 PKT" name="tearDown" finished-at="2024-02-24T21:29:34 PKT" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.task3LoginTest.Task3_LoginTest -->
       <class name="com.qa.db.DataBaseTest">
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.qa.db.DataBaseTest@5bf0d49]" started-at="2024-02-24T20:59:50 PKT" name="setUpTest" finished-at="2024-02-24T20:59:50 PKT" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.qa.db.DataBaseTest@327514f]" started-at="2024-02-24T21:29:29 PKT" name="setUpTest" finished-at="2024-02-24T21:29:30 PKT" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="test()[pri:0, instance:com.qa.db.DataBaseTest@5bf0d49]" started-at="2024-02-24T20:59:50 PKT" name="test" finished-at="2024-02-24T20:59:50 PKT" duration-ms="30" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.qa.db.DataBaseTest@327514f]" started-at="2024-02-24T21:29:34 PKT" name="test" finished-at="2024-02-24T21:29:34 PKT" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.db.DataBaseTest@5bf0d49]" started-at="2024-02-24T20:59:50 PKT" name="tearDown" finished-at="2024-02-24T20:59:50 PKT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.db.DataBaseTest@327514f]" started-at="2024-02-24T21:29:34 PKT" name="tearDown" finished-at="2024-02-24T21:29:34 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.db.DataBaseTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

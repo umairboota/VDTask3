@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.task3LoginTest.Task3_LoginTest">
+      <class name="com.qa.db.DataBaseTest">
         <methods>
-          <include name="loginTestFalse"/>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
+          <include name="abc"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.qa.task3LoginTest.Task3_LoginTest -->
+      </class> <!-- com.qa.db.DataBaseTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
